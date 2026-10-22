@@ -51,14 +51,15 @@ namespace MicroNations_Finale
 
         static void MostraMenu()
         {
-            Console.WriteLine("1. Visualizza partite (ordine naturale)");
+
+            Console.WriteLine("\n1. Visualizza partite (ordine naturale)");
             Console.WriteLine("2. Visualizza partite (altro criterio)");
             Console.WriteLine("3. Inserisci partita");
             Console.WriteLine("4. Classifica gironi");
             Console.WriteLine("5. Cerca partite di una squadra");
             Console.WriteLine("6. Elimina partita");
             Console.WriteLine("0. Esci");
-            Console.Write("Scelta: ");
+            Console.WriteLine("Scelta: \n");
         }
 
         static void VisualizzaNaturale()

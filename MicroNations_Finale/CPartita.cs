@@ -218,7 +218,7 @@ namespace MicroNations_Finale
             }
         }
 
-        public static bool operator ==(CPartita a, CPartita b)
+        public static bool operator ==(CPartita a, CPartita b)  
         {
             if (a is null && b is null)
             {
